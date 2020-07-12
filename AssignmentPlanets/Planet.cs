@@ -83,7 +83,24 @@ namespace AssignmentPlanets
         }
 
         //CONSTRUCTOR(S)
+        public Planet(string name,double diameter,double mass)
+        {
+            m_name = name;
+            m_diameter = diameter;
+            m_mass = mass;
+        }
         //PRIVATE METHODS
         //PUBLIC METHODS
+        public override string ToString()
+        {
+            string outputstring = "";
+            outputstring += "\n++++++++++++++++++++++\n";
+            outputstring += $"Name    :{Name}\n";
+            outputstring += $"Diameter:{Diameter}\n";
+            outputstring += $"Mass    :{Mass}\n";
+            outputstring += "\n++++++++++++++++++++++\n";
+
+            return base.ToString();
+        }
     }
 }
