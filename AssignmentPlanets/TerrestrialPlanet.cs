@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AssignmentPlanets
 {
-    class TerrestrialPlanet:Planet
+    class TerrestrialPlanet:Planet,IHasMoons,IHabitable
     {
         //PRIVATE INSTANCE VARIABLES
         private bool m_oxygen;

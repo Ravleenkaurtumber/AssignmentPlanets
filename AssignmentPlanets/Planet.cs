@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AssignmentPlanets
 {
-    class Planet
+     abstract class Planet
     {
         //PRIVATE INSTANCE VARIABLES(FIELDS)
         private double m_diameter;
@@ -100,7 +100,7 @@ namespace AssignmentPlanets
             outputstring += $"Mass    :{Mass}\n";
             outputstring += "\n++++++++++++++++++++++\n";
 
-            return base.ToString();
+            return outputstring;
         }
     }
 }
