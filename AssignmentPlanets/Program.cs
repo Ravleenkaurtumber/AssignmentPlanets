@@ -10,9 +10,9 @@ namespace AssignmentPlanets
         }
         static void Main(string[] args)
         {
-            GiantPlanet Jupiter = new GiantPlanet("Jupiter", 139820, 1.89813e27);
+            GiantPlanet Jupiter = new GiantPlanet("Jupiter", 139820, 1.89813e2,"gas");
             Jupiter.ToString();
         }
-          
+        
     }
 }

@@ -91,9 +91,9 @@ namespace AssignmentPlanets
         }
         //PRIVATE METHODS
         //PUBLIC METHODS
-        public override string ToString()
+        public  override string ToString()
         {
-            string outputstring = "";
+            string outputstring = " ";
             outputstring += "\n++++++++++++++++++++++\n";
             outputstring += $"Name    :{Name}\n";
             outputstring += $"Diameter:{Diameter}\n";
@@ -101,6 +101,7 @@ namespace AssignmentPlanets
             outputstring += "\n++++++++++++++++++++++\n";
 
             return outputstring;
+            
         }
     }
 }
