@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AssignmentPlanets
 {
-    class GiantPlanet : Planet, IHasMoons, IHasRings
+     class GiantPlanet : Planet, IHasMoons, IHasRings
     {
 
         //PRIVATE INSTANCE VARIABLES(FIELDS)
