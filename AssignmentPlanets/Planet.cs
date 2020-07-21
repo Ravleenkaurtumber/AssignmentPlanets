@@ -94,11 +94,11 @@ namespace AssignmentPlanets
         public  override string ToString()
         {
             string outputstring = " ";
-            outputstring += "\n++++++++++++++++++++++\n";
-            outputstring += $"Name    :{Name}\n";
-            outputstring += $"Diameter:{Diameter}\n";
-            outputstring += $"Mass    :{Mass}\n";
-            outputstring += "\n++++++++++++++++++++++\n";
+            outputstring = "\n++++++++++++++++++++++\n";
+            outputstring = $"Name    :{Name}\n";
+            outputstring = $"Diameter:{Diameter}\n";
+            outputstring = $"Mass    :{Mass}\n";
+            outputstring = "\n++++++++++++++++++++++\n";
 
             return outputstring;
             
